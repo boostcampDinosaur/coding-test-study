@@ -2,15 +2,16 @@ int_triangle = []
 for i in range(int(input())):
     int_triangle.append(list(map(int, input().split())))
 
+# 현재 칸의 최고 점수는 max(현재 칸 값 + 이전 왼쪽 칸 값, 현재 칸 값 + 이전 오른쪽 칸 값)
 for row in range(1, len(int_triangle)):
-    for num in range(row + 1):
-        if num == 0:
+    for num in range(row + 1):  # 모든 행 탐색
+        if num == 0:  # 가장 왼쪽 줄
             int_triangle[row][num] = int_triangle[row][num] + int_triangle[row - 1][num]
-        elif num == row:
+        elif num == row:  # 가장 오른쪽 줄
             int_triangle[row][num] = (
                 int_triangle[row][num] + int_triangle[row - 1][num - 1]
             )
-        else:
+        else:  # 중간 줄
             int_triangle[row][num] = max(
                 int_triangle[row][num] + int_triangle[row - 1][num],
                 int_triangle[row][num] + int_triangle[row - 1][num - 1],
