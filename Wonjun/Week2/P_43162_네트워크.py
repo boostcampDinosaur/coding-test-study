@@ -37,3 +37,6 @@ def solution(n, computers):
 # BFS로 접근, 이어진 것들을 인접 노드로 queue에 등록한다.\
 
 # * visited[idx]로 해야하는데 visited[vertex]로 하고 있어서 헤맴: 왜 그랬을까.... 정신차리자.
+
+# 교훈
+# 유니온파인드
