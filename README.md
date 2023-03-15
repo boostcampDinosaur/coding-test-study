@@ -20,3 +20,4 @@
 |   12   	| 2023.3.8. 	|   Level 2  	|   [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411)       	|          	|     ❌    	|          	|
 |   13   	| 2023.3.8. 	|   Gold III  	|   [내리막 길](https://www.acmicpc.net/problem/1520)       	|          	|     ❌    	|          	|
 |   14   	| 2023.3.8. 	|   Level 3  	|   [숫자게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987)       	|          	|     ❌    	|          	|
+|   14   	| 2023.3.8. 	|   Silver III  	|   [도키도키 간식드리미](https://www.acmicpc.net/problem/12789)       	|          	|     ❌    	|          	|
